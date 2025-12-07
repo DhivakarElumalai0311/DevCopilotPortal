@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  background: #f1f1f1;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+}
+
+//few customization to the default bootstrap card styles
+.card {
+  border: 0;
+  box-shadow: #00000021 0px 1.6px 3.6px 0px, #00000021 0px 0.3px 0.9px 0px;
+  > .card-header {
+    background-color: #fff;
+  }
+  .card-body {
+    padding: 0.25rem;
+  }
+}
+
+.search-container {
+  width: 80%;
+  margin: 0 30px;
+  position: relative;
+
+  .input-group {
+    flex-wrap: nowrap;
+  }
+  .fa-search {
+    position: absolute;
+    left: 22px;
+    top: 18px;
+    z-index: 5;
+    color: #bababa;
+  }
+  .search-bar {
+    padding: 0.6875rem;
+    border-radius: 0 0.3125rem 0.3125rem 0;
+    border: none;
+    color: #bababa;
+    width: 35rem;
+    font-size: 1.125rem;
+    position: relative;
+    z-index: 3;
+  }
+  .search-bar:focus {
+    outline: none;
+  }
+  input::placeholder {
+    text-align: left;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #bababa;
+    opacity: 1;
+  }
+  .input-group-prepend #search-icon-addon {
+    background: #fff;
+    border: 0;
+    border-radius: 0.3125rem 0 0 0.3125rem;
+  }
+}
+
+.fui-InfoButton__info {
+  max-width: 40% !important;
+}
+
+.fui-InfoButton {
+  cursor: pointer;
+}

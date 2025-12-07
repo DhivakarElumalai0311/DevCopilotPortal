@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "id": "shell,swa,start,http://localhost:3000,--run,npm start,--devserver-timeout=90000,",
+      "problemMatcher": ["$swa-watch"],
+      "label": "swa: start d365app",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
